@@ -51,3 +51,17 @@ Write automated tests to reduce errors and improve release speed.
 ### 9. DevOps Engineers  
 Handle infrastructure, CI/CD pipelines, and deployment for scalability and reliability.  
 
+## 🛠️ Technology Stack
+
+This project leverages a modern technology stack to replicate the core features of Airbnb.  
+Each technology plays a specific role in ensuring scalability, maintainability, and performance.  
+
+- **Django**: A high-level Python web framework used to build the backend of the application, manage business logic, and serve RESTful APIs.  
+- **PostgreSQL**: A powerful relational database system used for storing and managing user data, property listings, bookings, and transactions.  
+- **GraphQL**: A query language that provides efficient data fetching by allowing clients to request only the data they need.  
+- **HTML5 / CSS3**: For structuring and styling the front-end interface of the web application.  
+- **JavaScript (ES6+)**: Adds interactivity and dynamic features to the client-side.  
+- **Git & GitHub**: Version control and collaboration tools to track changes and manage project contributions.  
+- **Docker (optional, if included)**: For containerization, ensuring consistency across different development and deployment environments.  
+
+
