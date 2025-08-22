@@ -94,3 +94,14 @@ Each technology plays a specific role in ensuring scalability, maintainability, 
 - A **Booking** belongs to both a **User** and a **Property**.  
 - A **Review** belongs to a **User** and a **Property**.  
 - A **Payment** is tied to a **Booking**.  
+
+## 4. Feature Breakdown
+**Objective:** Detail the features of the Airbnb Clone project.  
+
+- **User Management:** Enables user registration, login, profile updates, and role-based access.  
+- **Property Management:** Allows owners to list, update, and manage properties.  
+- **Booking System:** Facilitates property reservations with availability tracking.  
+- **Reviews & Ratings:** Lets users review properties, improving trust and engagement.  
+- **Payment Integration:** Processes secure transactions for bookings.  
+- **Security Features:** Implements authentication, authorization, and data protection.  
+- **CI/CD Pipelines:** Ensures continuous testing, integration, and automated deployment.  
