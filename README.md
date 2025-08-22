@@ -105,3 +105,32 @@ Each technology plays a specific role in ensuring scalability, maintainability, 
 - **Payment Integration:** Processes secure transactions for bookings.  
 - **Security Features:** Implements authentication, authorization, and data protection.  
 - **CI/CD Pipelines:** Ensures continuous testing, integration, and automated deployment.  
+
+## 5. API Security
+**Objective:** Understand the importance of securing the backend APIs.  
+
+### Key Security Measures:
+1. **Authentication**
+   - Only verified users can access protected resources.  
+   - Example: JWT (JSON Web Tokens) or OAuth2 for secure session management.  
+
+2. **Authorization**
+   - Ensures users can only perform actions they are permitted to.  
+   - Example: A guest cannot delete another host’s property.  
+
+3. **Rate Limiting**
+   - Prevents abuse of APIs by limiting the number of requests per user/IP.  
+   - Protects against brute force and denial-of-service attacks.  
+
+4. **Data Encryption**
+   - All sensitive data (passwords, payments) stored in encrypted format.  
+   - API communication secured via HTTPS/TLS.  
+
+5. **Input Validation & Sanitization**
+   - Protects against SQL Injection, XSS, and malicious payloads.  
+
+### Why Security is Crucial:
+- **User Data Protection:** Safeguards personal information like emails, passwords, and IDs.  
+- **Payment Security:** Ensures safe transactions and prevents fraud.  
+- **System Reliability:** Prevents downtime and unauthorized system access.  
+- **Trust & Reputation:** Builds user confidence and ensures compliance with data laws.  
