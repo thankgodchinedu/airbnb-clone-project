@@ -134,3 +134,22 @@ Each technology plays a specific role in ensuring scalability, maintainability, 
 - **Payment Security:** Ensures safe transactions and prevents fraud.  
 - **System Reliability:** Prevents downtime and unauthorized system access.  
 - **Trust & Reputation:** Builds user confidence and ensures compliance with data laws.  
+
+## 6. CI/CD Pipeline
+**Objective:** Understand how CI/CD pipelines contribute to the development process.  
+
+### What is CI/CD?
+- **Continuous Integration (CI):** The practice of frequently merging code changes into the main branch, followed by automated builds and tests.  
+- **Continuous Deployment/Delivery (CD):** Automates the release process, ensuring that changes are quickly and safely deployed to production.  
+
+### Why It’s Important:
+- **Faster Development Cycles:** Automates testing and deployment, reducing manual work.  
+- **Improved Code Quality:** Automated tests catch bugs early.  
+- **Reliability:** Reduces the risk of errors during deployment.  
+- **Collaboration:** Ensures that the entire team works on stable and tested code.  
+
+### Tools That Can Be Used:
+- **GitHub Actions:** Automates workflows for testing, building, and deploying the project.  
+- **Docker:** Containerizes applications for consistency across environments.  
+- **Jenkins:** Alternative automation server for more complex pipelines.  
+- **Kubernetes (Optional):** For scaling and managing containerized applications.
